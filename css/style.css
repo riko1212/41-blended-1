@@ -1,0 +1,51 @@
+:root {
+    --main-title-color: #ffffff;
+    --second-title-color: rgba(50, 50, 50, 1);
+    --main-text-color: #999999;
+    --second-text-color: #ffffff;
+    --accent-color: #4985FF;
+}
+body {
+   font-family: "Montserrat", sans-serif;
+}
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header {
+    background-color: wheat;
+}
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--second-text-color);
+}
+.hero {
+    background-color: tomato;
+}
+.hero-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--second-text-color);
+}
+
+.hero-title {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1.33;
+    color: var(--main-title-color);
+}
+
+.btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--second-text-color);
+    }
