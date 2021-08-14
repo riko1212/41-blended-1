@@ -1,51 +1,84 @@
 :root {
-    --main-title-color: #ffffff;
-    --second-title-color: rgba(50, 50, 50, 1);
-    --main-text-color: #999999;
-    --second-text-color: #ffffff;
-    --accent-color: #4985FF;
+  --main-title-color: #ffffff;
+  --second-title-color: #323232;
+  --main-text-color: #999999;
+  --second-text-color: #ffffff;
+  --accent-color: #4985ff;
+  --subtitle-color: #000000;
 }
 body {
-   font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.header {
-    background-color: wheat;
-}
-.header-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.25;
-    color: var(--second-text-color);
-}
-.hero {
-    background-color: tomato;
-}
-.hero-text {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.25;
-    color: var(--second-text-color);
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
 }
 
-.hero-title {
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 1.33;
-    color: var(--main-title-color);
+.section-text {
+  font-size: 16px;
+  line-height: 1.56;
+  color: var(--main-text-color);
 }
 
 .btn {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.25;
-    color: var(--second-text-color);
-    }
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--second-text-color);
+}
+
+.header {
+  background-color: wheat;
+}
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--second-text-color);
+}
+.hero {
+  background-color: tomato;
+}
+.hero-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--second-text-color);
+}
+
+.hero-title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.33;
+  color: var(--main-title-color);
+}
+
+.mobile-title {
+  text-align: center;
+  color: var(--second-title-color);
+}
+
+.mobile-text {
+  text-align: center;
+}
+
+.mobile-list-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: var(--subtitle-color);
+}
+
+.mobile-list-text {
+  font-size: 14px;
+}
