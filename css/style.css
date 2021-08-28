@@ -96,7 +96,8 @@ ul {
   margin-bottom: 20px;
 }
 
-.hero-button {
+.hero-button,
+.mobile-button {
   display: block;
   margin: 0 auto;
 }
@@ -112,16 +113,73 @@ ul {
   margin-bottom: 50px;
 }
 
+.mobile {
+  padding-top: 110px;
+  padding-bottom: 105px;
+}
+
 .mobile-title {
+  max-width: 740px;
+  margin: 0 auto 50px;
   text-align: center;
   color: var(--second-title-color);
 }
 
 .mobile-text {
+  max-width: 730px;
+  margin: 0 auto 70px;
   text-align: center;
 }
 
+.mobile-list {
+  display: flex;
+  margin-left: -27px;
+  margin-bottom: 55px;
+}
+
+.mobile-item {
+  display: flex;
+  flex-basis: calc(100% / 3 - 27px);
+  margin-left: 27px;
+}
+
+.mobile-icon {
+  fill: var(--accent-color);
+}
+
+.circle-out {
+  margin-right: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  /*--------------- почитать --------------- */
+  width: 110px;
+  height: 110px;
+  border: 1px solid var(--main-text-color);
+  border-radius: 50%;
+}
+
+.circle-out:hover .circle-in {
+  background-color: var(--accent-color);
+}
+
+.circle-out:hover .mobile-icon {
+  fill: #ffffff;
+}
+
+.circle-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  border: 1px solid var(--accent-color);
+  border-radius: 50%;
+}
+
 .mobile-list-title {
+  margin-bottom: 12px;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.22;
@@ -130,4 +188,8 @@ ul {
 
 .mobile-list-text {
   font-size: 14px;
+}
+
+.mobile-item-content {
+  margin-top: 40px;
 }
