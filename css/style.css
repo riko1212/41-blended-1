@@ -193,3 +193,55 @@ ul {
 .mobile-item-content {
   margin-top: 40px;
 }
+
+/* ------------СТАНДАРТЫ-------------- */
+.standarts {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background-color: #f6f6f8;
+}
+.stantarts-title {
+  color: #323232;
+  margin-bottom: 40px;
+}
+.standarts-text {
+  margin-bottom: 30px;
+}
+.stantarts-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(25 / 16);
+  text-decoration-line: underline;
+  color: var(--accent-color);
+}
+.stantarts-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 90px;
+  margin-bottom: 70px;
+}
+.standarts-content {
+  max-width: 490px;
+}
+.standats-diggid {
+  font-size: 36px;
+  line-height: calc(53 / 36);
+  color: #000000;
+}
+.standats-item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.standats-item {
+  max-width: 104px;
+}
+.standats-icon {
+  fill: var(--accent-color);
+}
+.standats-list {
+  display: flex;
+  justify-content: space-evenly;
+}
